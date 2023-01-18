@@ -1,5 +1,7 @@
-s = 'aaaabbсaa'
-# a4b2с1a2
-
-
-
+a = float(input("Write 1st number: "))
+b = float(input("Write 2nd number: "))
+c = float(input("What do you want to do? "))
+if c == 1: print(a+b)
+elif c == 2: print(a-b)
+elif c == 3: print(a*b)
+else: print(a/b)
